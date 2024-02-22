@@ -1,6 +1,4 @@
 # Client Folder - React Application
-<<<<<<< HEAD
-=======
 
 Welcome to the client folder of our project! This directory contains all the necessary files for the frontend of our application, built with React.
 
@@ -34,4 +32,3 @@ This setup is designed to be a starting point. As you progress through the devel
 We hope this README helps you get started with developing the frontend of your application. If you have any questions or encounter issues, please refer to the project documentation or reach out for support.
 
 Happy coding!
->>>>>>> 4075b6d1b977fe0cad1601964e69ba5b9abecc6d

@@ -1,0 +1,22 @@
+.hero-image {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(../../public/assets/hero-section-image.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.hero-text p {
+    
+}

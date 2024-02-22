@@ -1,21 +1,26 @@
 import React from "react";
 import "../styles/Header.css";
 import { Link } from "react-router-dom";
+import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">My University Tasks</Link>
+        <Link to="/">Foodie</Link>
       </div>
       <ul className="nav-links">
-        <li>
+        {/* <li>
           <Link to="/tasks">Tasks</Link>
         </li>
         <li>
           <Link to="/add-task">New Task</Link>
+        </li> */}
+        <li>
+          <Link to = "/browse">Browse Food</Link>
         </li>
       </ul>
+      <SearchBar />
     </nav>
   );
 };

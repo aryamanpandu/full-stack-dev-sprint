@@ -6,20 +6,25 @@ import Home from "./pages/Home";
 import Tasks from "./pages/Tasks";
 import { TasksProvider } from "./context/TasksContext";
 import Form from "./pages/Form";
+import Browse from "./pages/Browse";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
   },
+  // {
+  //   path: "/tasks",
+  //   element: <Tasks />,
+  // },
+  // {
+  //   path: "/add-task",
+  //   element: <Form />,
+  // },
   {
-    path: "/tasks",
-    element: <Tasks />,
-  },
-  {
-    path: "/add-task",
-    element: <Form />,
-  },
+    path: "/browse",
+    element: <Browse />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
